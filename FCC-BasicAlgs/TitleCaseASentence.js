@@ -1,7 +1,7 @@
 function titleCase(str) {
   str = str.toLowerCase().split(' ').map(word => {
       return word.replace(/\w/, (letter) => {
-      return letter.toUpperCase();
+        return letter.toUpperCase();
       });
   }).join(' ');
   return str;
